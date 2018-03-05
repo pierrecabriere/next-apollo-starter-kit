@@ -1,0 +1,20 @@
+{
+  "presets": "next/babel",
+  "plugins": [
+    ["transform-define", "./env.config.js"],
+    "babel-plugin-inline-import-graphql-ast",
+    "transform-decorators-legacy",
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "styles": "./styles",
+        "pages": "./pages",
+        "lib": "./lib",
+        "layouts": "./layouts",
+        "graphql": "./graphql",
+        "components": "./components",
+        "routes": "./routes"
+      }
+    }]
+  ]
+}

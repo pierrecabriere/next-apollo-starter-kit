@@ -1,0 +1,18 @@
+// breakpoints
+$breakpoint_mobile: 400px;
+$breakpoint_tablet: 768px;
+$breakpoint_desktop: 1024px;
+$breakpoint_widescreen: 1280px;
+
+// config
+$container-max-width: $breakpoint_desktop;
+
+// colors
+$white: #fff;
+$black: #000;
+$grey: #ddd;
+$grey-dark: darken($grey, 15%);
+$blue: blue;
+
+// theme colors
+$primary: $blue;

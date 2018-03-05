@@ -1,0 +1,13 @@
+{
+  "endpoints": [
+    {
+      "name": "Default",
+      "url": "https://yourendpoint.com",
+      "options": {
+        "headers": {
+          "user-agent": "JS GraphQ"
+        }
+      }
+    }
+  ]
+}

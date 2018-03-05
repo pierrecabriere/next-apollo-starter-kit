@@ -1,0 +1,8 @@
+@import '~include-media/dist/include-media';
+
+$breakpoints: (
+    mobile: $breakpoint_mobile,
+    tablet: $breakpoint_tablet,
+    desktop: $breakpoint_desktop,
+    widescreen: $breakpoint_widescreen
+);
