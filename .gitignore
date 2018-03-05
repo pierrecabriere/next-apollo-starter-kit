@@ -6,6 +6,7 @@ dist
 node_modules
 modules
 package-lock.json
+yarn.lock
 test/node_modules
 
 # logs
