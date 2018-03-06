@@ -1,11 +1,30 @@
 {
   "name": "next-apollo-starter-kit",
   "version": "1.0.0",
+  "description": "React graphql starter kit with universal support based on next.js and the Apollo Client",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierrecabriere/next-apollo-starter-kit.git"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "react",
+    "nextjs",
+    "universal",
+    "server-rendering"
+  ],
+  "author": "hello@pierrecabriere.fr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierrecabriere/next-apollo-starter-kit/issues"
+  },
+  "homepage": "https://github.com/pierrecabriere/next-apollo-starter-kit#readme",
   "dependencies": {
     "@zeit/next-sass": "^0.1.1",
     "apollo-client-preset": "1.0.4",
@@ -22,8 +41,6 @@
     "react-apollo": "^2.1.0-rc.1",
     "react-dom": "^16.2.0"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "babel-plugin-inline-import-graphql-ast": "^2.1.2",
     "babel-plugin-module-resolver": "^3.0.0",
