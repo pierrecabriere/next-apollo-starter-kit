@@ -1,5 +1,7 @@
 # next-apollo-starter-kit 🛠
 
+**next-apollo-starter-kit is simple way to start building universal apps with clean code and best practices. It's a react-graphql stack based on the excellent [next.js](https://github.com/zeit/next.js) framework and the [apollo-client](https://github.com/apollographql/apollo-client)**
+
 ---
 
 ## 1 - Installation
